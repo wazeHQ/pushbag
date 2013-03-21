@@ -1,0 +1,9 @@
+---
+layout: layout
+---
+
+{% for page in site.posts %}
+<article>
+  {{ page.content | markdownify }}
+</article>
+{% endfor %}
