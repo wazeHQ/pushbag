@@ -125,12 +125,6 @@ h1 {
   font-size: 1.8em;
   margin: 0;
 }
-h2 {
-  font-size: 1em;
-}
-h1, h2 {
-  text-transform: uppercase;
-}
 
 footer {
   border-top: 1px solid #ccc;
@@ -141,4 +135,8 @@ footer {
 
 ul {
   list-style-type: disc;
+}
+
+article h1 {
+  display: none;
 }
